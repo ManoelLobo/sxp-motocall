@@ -3,17 +3,15 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLScObl0VRhxYBX-PCfLxFJODxT5PVl2vKTnfSe2Z4XnOK_VtMA/viewform?embedded=true"
-      width="960"
-      height="500"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-    >
-      Carregando…
-    </iframe>
-    <Link to="/">Go back to the homepage</Link>
+    <p>
+      Nossa proposta é unir os passageiros aos mototaxistas de forma rápida e prática, anunciando os contatos dos prestadores
+      do serviço em nosso aplicativo.
+    </p>
+    <p>
+      Nossos mototaxistas premium também conseguirão receber o chamado de corrida pelo próprio app, para que o cliente
+      não precise nem discar para solicitar uma moto!
+    </p>
+    <Link to="/page-3"><button className="next-step">Que bacana! Como faço para conseguir o app?</button></Link>
   </div>
 )
 
