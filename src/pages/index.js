@@ -5,7 +5,7 @@ const IndexPage = () => (
   <div style={{ flex: 1, justifyContent: 'center', alignItems: 'center', height: 960 }}>
     <h1>Olá</h1>
     <p>
-      Você é um usuário de mototáxi e sempre encontra dificuldade para encontrar um disponível, porque nunca lembra o
+      Você é um usuário de mototáxi e sempre tem dificuldade para encontrar um disponível, porque nunca lembra o
       telefone de nenhum?
     </p>
     <p>
