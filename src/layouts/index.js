@@ -10,8 +10,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="MotocaLL 🏍"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'O jeito fácil de encontrar seu táxi sobre duas rodas' },
+        { name: 'keywords', content: 'mototáxi, transporte' },
       ]}
     />
     <Header />
